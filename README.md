@@ -21,11 +21,13 @@ Flexbox and Grid layout techniques were employed for efficient and flexible posi
 SASS was used to enhance the maintainability of the stylesheets, providing variables, nesting, and other features to streamline the styling process.
 
 ## Live Website
-Visit the live website [My website](https://github.com/MahmoudWafdy/personal-website/tree/main).
+Visit the live website [My website](https://mahmoudwafdy.github.io/personal-website/).
 
 ## Repository
 Find the source code in this [GitHub repository](https://github.com/MahmoudWafdy/personal-website/tree/main).
 
+## Preview
+![Alt Text](path/to/images/screen1.jpej) 
 
 ## How to Run
 1. Clone the repository: `git clone https://github.com/your-username/frontmeetor-challenge.git`
