@@ -1,5 +1,3 @@
-# Frontmenetor Challenge Project
-
 ## Overview
 This project was first apply CSS, and HTML lessons, showcasing proficiency in web development technologies, including HTML, CSS, Flexbox, Grid, and SASS. The goal of this project was to demonstrate skills in creating a responsive and visually appealing web application.
 
