@@ -21,10 +21,10 @@ Flexbox and Grid layout techniques were employed for efficient and flexible posi
 SASS was used to enhance the maintainability of the stylesheets, providing variables, nesting, and other features to streamline the styling process.
 
 ## Live Website
-Visit the live website [here](https://your-live-website-url.com).
+Visit the live website [My website](https://github.com/MahmoudWafdy/personal-website/tree/main).
 
 ## Repository
-Find the source code in this [GitHub repository](https://github.com/your-username/landing-page).
+Find the source code in this [GitHub repository](https://github.com/MahmoudWafdy/personal-website/tree/main).
 
 
 ## How to Run
