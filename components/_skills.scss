@@ -1,0 +1,25 @@
+.skills__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 6rem;
+}
+.skills__item {
+  transition: var(--transition-timing);
+  -webkit-transition: var(--transition-timing);
+  -moz-transition: var(--transition-timing);
+  -ms-transition: var(--transition-timing);
+  -o-transition: var(--transition-timing);
+  user-select: none;
+}
+.skills__item:hover {
+  text-shadow: 0 02px var(--color-green);
+}
+.skills__title {
+  font-size: var(--font-size-38);
+  font-weight: var(--font-weight-semi-bold);
+}
+.skills__years {
+  font-size: var(--font-size-20);
+  margin-top: 1rem;
+  display: inline-block;
+}

@@ -1,0 +1,126 @@
+@media (max-width: 1000px) {
+  :root {
+    font-size: 8px;
+  }
+}
+/* tablet dimention */
+@media (max-width: 800px) {
+  .container {
+    row-gap: 8rem;
+  }
+  .section {
+    grid-template-columns: 1fr;
+  }
+  .bio__picture-content {
+    grid-row: 1;
+    justify-self: center;
+  }
+  .skills__list {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 6rem;
+  }
+  .projects__main {
+    grid-template-columns: 1fr;
+    row-gap: 6rem;
+    justify-items: center;
+  }
+  .projects__photo {
+    width: 100%;
+  }
+
+  /* to put second photo befor content */
+  .projects__photo:nth-of-type(2) {
+    grid-row: 3;
+  }
+  /* .projects__desc:nth-of-type(2) {    
+      order: 1;
+    } */
+  .clients__opinions {
+    font-size: var(--font-size-24);
+  }
+  .contact {
+    row-gap: 6rem;
+  }
+
+  .contact__formContent {
+    order: -1;
+  }
+}
+/* mobile dimention */
+@media (max-width: 500px) {
+  :html {
+    font-size: 6px;
+  }
+
+  .header {
+    padding: 0;
+  }
+
+  .header::before {
+    z-index: 0;
+  }
+  .burger-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    cursor: pointer;
+    z-index: 0;
+    align-self: center;
+  }
+  .burger-menu__bar {
+    height: 0.3rem;
+    width: 4.375rem;
+    background-color: var(--color-text);
+    transition: var(--transition-timing);
+    -webkit-transition: var(--transition-timing);
+    -moz-transition: var(--transition-timing);
+    -ms-transition: var(--transition-timing);
+    -o-transition: var(--transition-timing);
+  }
+  .header:has(.burger-menu__checkbox:checked) .burger-menu__bar:nth-child(1) {
+    transform: translateY(10px) rotate(40deg);
+    -webkit-transform: translateY(10px) rotate(40deg);
+    -moz-transform: translateY(10px) rotate(40deg);
+    -ms-transform: translateY(10px) rotate(40deg);
+    -o-transform: translateY(10px) rotate(40deg);
+  }
+  .header:has(.burger-menu__checkbox:checked) .burger-menu__bar:nth-child(2) {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .header:has(.burger-menu__checkbox:checked) .burger-menu__bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-40deg);
+    -webkit-transform: translateY(-7px) rotate(-40deg);
+    -moz-transform: translateY(-7px) rotate(-40deg);
+    -ms-transform: translateY(-7px) rotate(-40deg);
+    -o-transform: translateY(-7px) rotate(-40deg);
+  }
+  .burger-menu__checkbox:checked + .navigation {
+    top: 100%;
+  }
+  .navigation {
+    position: absolute;
+    width: 100%;
+    width: 100vw;
+    top: 0;
+    padding: 3rem 0;
+    border-bottom: 0.1rem solid var(--color-input-border);
+    z-index: -1;
+  }
+  .navigation-list {
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .toggle {
+    padding: 3rem 0;
+    z-index: 1;
+  }
+  .bio__pic {
+    width: 100%;
+  }
+}
+@media (max-width: 390px) {
+  .navigation-list {
+    gap: 1.2rem;
+  }
+}
