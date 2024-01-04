@@ -27,7 +27,7 @@ Visit the live website [My website](https://mahmoudwafdy.github.io/personal-webs
 Find the source code in this [GitHub repository](https://github.com/MahmoudWafdy/personal-website/tree/main).
 
 ## Preview
-![website photo](path/to/images/screen1.jpg) 
+![website photo](path/to/images/screen1.JPG) 
 
 ## How to Run
 1. Clone the repository: `git clone https://github.com/your-username/frontmeetor-challenge.git`
